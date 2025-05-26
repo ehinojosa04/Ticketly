@@ -1,0 +1,74 @@
+.qr-card-grid {
+  margin-top: 1rem;
+}
+
+.qr-col {
+  display: flex;
+  justify-content: center;
+}
+
+.qr-card {
+  width: 100%;
+  max-width: 100%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  border-radius: 12px;
+}
+
+@media (min-width: 768px) {
+  .qr-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .qr-col {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+.qr-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.75rem;
+}
+
+.qr-id {
+  font-size: 0.75rem;
+  color: #888;
+  font-style: italic;
+  max-width: 50%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+
+.status-chip {
+  text-transform: uppercase;
+}
+
+/* Status chips */
+.status-chip.active {
+  background-color: #2ecc71;
+  color: white;
+}
+.status-chip.inactive {
+  background-color: #f39c12;
+  color: white;
+}
+.status-chip.used {
+  background-color: #9b59b6;
+  color: white;
+}
+.status-chip.generated {
+  background-color: #3498db;
+  color: white;
+}
+.status-chip.not_generated {
+  background-color: #e74c3c;
+  color: white;
+}

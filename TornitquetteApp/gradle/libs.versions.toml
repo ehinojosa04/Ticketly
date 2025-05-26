@@ -1,0 +1,40 @@
+[versions]
+agp = "8.10.0"
+core-ktx = "1.16.0"
+kotlin = "1.9.0"
+firebase-bom = "32.3.1"
+google-services = "4.3.15"
+firebase-crashlytics-gradle = "2.9.9"
+
+[libraries]
+# AndroidX
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version = "1.12.0" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version = "1.6.1" }
+androidx-activity = { group = "androidx.activity", name = "activity-ktx", version = "1.7.2" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version = "2.1.4" }
+
+# Material
+androidx-core-ktx-v1160 = { module = "androidx.core:core-ktx", version.ref = "core-ktx" }
+material = { group = "com.google.android.material", name = "material", version = "1.9.0" }
+
+# Firebase
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebase-bom" }
+firebase-auth-ktx = { module = "com.google.firebase:firebase-auth-ktx" }
+firebase-database-ktx = { module = "com.google.firebase:firebase-database-ktx" }
+
+# ML Kit & CameraX
+mlkit-barcode-scanning = { module = "com.google.mlkit:barcode-scanning", version = "17.2.0" }
+camera-camera2 = { module = "androidx.camera:camera-camera2", version = "1.3.0" }
+camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version = "1.3.0" }
+camera-view = { module = "androidx.camera:camera-view", version = "1.3.0" }
+
+# Testing
+junit = { group = "junit", name = "junit", version = "4.13.2" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version = "1.1.5" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version = "3.5.1" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+google-services = { id = "com.google.gms.google-services", version.ref = "google-services" }
+firebase-crashlytics = { id = "com.google.firebase.crashlytics", version.ref = "firebase-crashlytics-gradle" }

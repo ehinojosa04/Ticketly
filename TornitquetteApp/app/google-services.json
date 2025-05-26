@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "229683155001",
+    "firebase_url": "https://public-transportation-9411a-default-rtdb.firebaseio.com",
+    "project_id": "public-transportation-9411a",
+    "storage_bucket": "public-transportation-9411a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229683155001:android:1fb5b99367b18699e47de8",
+        "android_client_info": {
+          "package_name": "com.example.torniqueteapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRICADv3BqIAlxz3s1kddse-IJuxC--DI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

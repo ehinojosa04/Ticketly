@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema base (puede ser Material 2 o 3) -->
+    <style name="Theme.TorniqueteApp" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <!-- Variante sin ActionBar -->
+    <style name="Theme.TorniqueteApp.NoActionBar" parent="Theme.TorniqueteApp">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+</resources>
